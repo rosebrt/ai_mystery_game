@@ -33,6 +33,7 @@
   },
   "resources": [
     {"id":{"name":"Spr_Battery","path":"sprites/Spr_Battery/Spr_Battery.yy",},"order":0,},
+    {"id":{"name":"Obj_Battery","path":"objects/Obj_Battery/Obj_Battery.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
