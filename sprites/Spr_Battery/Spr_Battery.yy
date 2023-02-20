@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Spr_Battery",
-  "bbox_bottom": 37,
+  "bbox_bottom": 35,
   "bbox_left": 0,
-  "bbox_right": 13,
+  "bbox_right": 11,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 38,
+  "height": 36,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2c576647-d158-4a60-acca-2eb1d3e2fb36","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 14,
+  "width": 12,
 }
