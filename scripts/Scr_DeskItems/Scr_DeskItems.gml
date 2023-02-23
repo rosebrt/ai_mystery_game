@@ -16,3 +16,21 @@ function bubble_sort_depth(_list) {
 	}
 	return _list;
 }
+
+enum sn_type {
+	out_node,
+	in_node
+}
+
+function create_snapnode(_type,_parent,_id="any",_dir=0,_x_rel=0,_y_rel=0) {
+	var sn = instance_create_depth(_parent.x+_x_rel,_parent.y+_y_rel,0,Obj_SnapNode);
+	
+	sn.sn_type = _type;
+	sn.parent_item = _parent;
+	sn.snap_id = _id;
+	sn.dir = _dir;
+	sn.x_rel = _x_rel;
+	sn.y_rel = _y_rel;
+	
+	return sn;
+}

@@ -1,13 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_ScreenElement",
-  "eventList": [],
+  "name": "Obj_SnapNode",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Digital Objects",
-    "path": "folders/Objects/Digital Objects.yy",
+    "name": "Desk",
+    "path": "folders/Objects/Desk.yy",
   },
   "parentObjectId": null,
   "persistent": false,

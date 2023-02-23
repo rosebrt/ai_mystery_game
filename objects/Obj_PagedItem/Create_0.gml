@@ -9,18 +9,18 @@ text_color = #222222;
 
 var b = instance_create_depth(85,110,0,Obj_Button);
 	b.image_index = 2;
+	b.image_blend = #944747;
 	b.parent_item = id;
 	b.on_click = method(b, function() {
-			if(parent_item.current_page < array_length(parent_item.pages))
+			if(parent_item.current_page < (array_length(parent_item.pages)-1))
 				parent_item.current_page++; });
-	b.text_color = #944747;
 	ds_list_add(buttons, b);
 	
 b = instance_create_depth(5,110,0,Obj_Button);
 	b.image_index = 3;
+	b.image_blend = #944747;
 	b.parent_item = id;
 	b.on_click = method(b, function() {
 			if(parent_item.current_page > 0)
 				parent_item.current_page--; });
-	b.text_color = #944747;
 	ds_list_add(buttons, b);

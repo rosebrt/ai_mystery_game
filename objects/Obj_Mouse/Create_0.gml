@@ -1,4 +1,3 @@
-hovering = noone;
 held_item = noone;
 
 off_x = 0;

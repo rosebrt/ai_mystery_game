@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Screen",
-  "eventList": [],
+  "name": "Obj_Battery",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Digital Objects",
-    "path": "folders/Objects/Digital Objects.yy",
+    "name": "Items",
+    "path": "folders/Objects/Desk/Items.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Obj_DeskItem",
+    "path": "objects/Obj_DeskItem/Obj_DeskItem.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,7 +30,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_Battery",
+    "path": "sprites/Spr_Battery/Spr_Battery.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

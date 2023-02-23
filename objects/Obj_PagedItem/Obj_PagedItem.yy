@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Desk",
-    "path": "folders/Objects/Desk.yy",
+    "name": "Items",
+    "path": "folders/Objects/Desk/Items.yy",
   },
   "parentObjectId": {
     "name": "Obj_DeskItem",

@@ -12,9 +12,9 @@ function move_item_to_front(_item) {
 }
 
 function move_a_above_b(_item_a, _item_b) {
-	var ib = ds_list_find_index(items, _item_b);
-	ds_list_delete(items,ib);
-	
 	var ia = ds_list_find_index(items, _item_a);
-	ds_list_insert(items,ia,_item_b);
+	ds_list_delete(items,ia);
+	
+	var ib = ds_list_find_index(items, _item_b);
+	ds_list_insert(items,ib,_item_a);
 }
