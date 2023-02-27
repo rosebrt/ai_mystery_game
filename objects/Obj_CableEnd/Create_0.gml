@@ -1,7 +1,9 @@
 event_inherited();
 
 source = {
-	x: 0,
-	y: 100,
+	x: 640,
+	y: 130,
 	powered: true
 };
+
+//cable = arra

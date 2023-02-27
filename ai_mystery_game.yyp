@@ -47,6 +47,8 @@
     {"id":{"name":"Obj_Button","path":"objects/Obj_Button/Obj_Button.yy",},"order":0,},
     {"id":{"name":"Obj_Main","path":"objects/Obj_Main/Obj_Main.yy",},"order":0,},
     {"id":{"name":"Obj_PocketChat","path":"objects/Obj_PocketChat/Obj_PocketChat.yy",},"order":0,},
+    {"id":{"name":"Obj_Photo","path":"objects/Obj_Photo/Obj_Photo.yy",},"order":0,},
+    {"id":{"name":"Obj_PCButton","path":"objects/Obj_PCButton/Obj_PCButton.yy",},"order":0,},
     {"id":{"name":"Spr_Device","path":"sprites/Spr_Device/Spr_Device.yy",},"order":0,},
     {"id":{"name":"Spr_PCUIBox","path":"sprites/Spr_PCUIBox/Spr_PCUIBox.yy",},"order":0,},
     {"id":{"name":"Obj_DeskItem","path":"objects/Obj_DeskItem/Obj_DeskItem.yy",},"order":0,},
@@ -65,6 +67,7 @@
     {"id":{"name":"Obj_Desk","path":"objects/Obj_Desk/Obj_Desk.yy",},"order":0,},
     {"id":{"name":"Scr_DeskItems","path":"scripts/Scr_DeskItems/Scr_DeskItems.yy",},"order":0,},
     {"id":{"name":"Spr_BasicButton1","path":"sprites/Spr_BasicButton1/Spr_BasicButton1.yy",},"order":0,},
+    {"id":{"name":"Spr_Photo","path":"sprites/Spr_Photo/Spr_Photo.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [

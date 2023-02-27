@@ -13,10 +13,8 @@ if(mouse_check_button(mb_left)){
 			//update any items whose nodes are snapped into my input snaps
 			if(s.connection != noone) {
 				var connected_item = s.connection.parent_item;
-		
 				connected_item.x = held_item.x + s.x_rel - s.connection.x_rel;
 				connected_item.y = held_item.y + s.y_rel - s.connection.y_rel;
-		
 			}
 		}
 	}
@@ -32,7 +30,8 @@ if(mouse_check_button(mb_left)){
 var num_items = ds_list_size(global.desk.items);
 for (var ii = 0; ii < num_items; ++ii) {
     var item = global.desk.items[| ii];
-
+	Obj_Button.hover = false;
+	
 	//Check if mouse within bounds
 	if( position_meeting(mouse_x,mouse_y,item) ) {
 		
@@ -43,7 +42,7 @@ for (var ii = 0; ii < num_items; ++ii) {
 			var by = item.y + button.y;
 			
 			if( point_in_rectangle(mouse_x,mouse_y,bx,by,bx+button.sprite_width,by+button.sprite_height) ){
-				button.hover();
+				button.hover = true;
 				break;
 			}
 		}

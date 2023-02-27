@@ -1,16 +1,24 @@
 event_inherited();
 
-//draw_buttons
-draw_sprite(Spr_PCUI,0,x+9, y+98);
-draw_sprite(Spr_PCUI,0,x+29,y+98);
-draw_sprite(Spr_PCUI,0,x+49,y+98);
-draw_sprite(Spr_PCUI,0,x+69,y+98);
+//draw to the screen surface
+surface_set_target(screen_surface);
+draw_clear_alpha(c_black, 0);
 
-draw_sprite(Spr_PCSymbols,sym_a,x+11,y+100);
-draw_sprite(Spr_PCSymbols,sym_b,x+31,y+100);
-draw_sprite(Spr_PCSymbols,sym_c,x+51,y+100);
-draw_sprite(Spr_PCSymbols,sym_d,x+71,y+100);
+//draw_buttons
+draw_sprite(Spr_PCUI,0,4, 93);
+draw_sprite(Spr_PCUI,0,24,93);
+draw_sprite(Spr_PCUI,0,44,93);
+draw_sprite(Spr_PCUI,0,64,93);
+
+draw_sprite(Spr_PCSymbols,sym_a,5, 95);
+draw_sprite(Spr_PCSymbols,sym_b,25,95);
+draw_sprite(Spr_PCSymbols,sym_c,45,95);
+draw_sprite(Spr_PCSymbols,sym_d,65,95);
 
 draw_screen();
+
+//draw screen surface
+surface_reset_target();
+draw_surface_ext(screen_surface,x+x_rel_rotated(5,5,image_angle),y+y_rel_rotated(5,5,image_angle),1,1,image_angle,c_white,image_alpha);
 
 draw_set_color(c_white);

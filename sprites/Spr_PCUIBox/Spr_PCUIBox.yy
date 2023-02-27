@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 9,
+  "height": 12,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"70c09a0d-7ed9-463f-9e79-7bb4700b4368","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,7 +25,7 @@
   "nineSlice": {
     "resourceType": "GMNineSliceData",
     "resourceVersion": "1.0",
-    "bottom": 2,
+    "bottom": 4,
     "enabled": true,
     "guideColour": [
       4294902015,
@@ -36,7 +36,7 @@
     "highlightColour": 1728023040,
     "highlightStyle": 1,
     "left": 2,
-    "right": 2,
+    "right": 4,
     "tileMode": [
       1,
       1,
@@ -172,5 +172,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 10,
+  "width": 12,
 }

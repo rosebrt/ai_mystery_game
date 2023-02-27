@@ -4,5 +4,6 @@ if(!hidden) {
 	else
 		image_alpha = 0.7;
 	
-	draw_sprite_ext(sprite_index,image_index,parent_item.x+x,parent_item.y+y,1,1,0,image_blend,image_alpha);
+	image_angle = parent_item.image_angle;
+	draw_sprite_ext(sprite_index,image_index,parent_item.x+x_rel_rotated(x,y,image_angle),parent_item.y+y_rel_rotated(x,y,image_angle),1,1,image_angle,image_blend,image_alpha);
 }
