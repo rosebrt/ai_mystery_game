@@ -37,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"Obj_DarkLight","path":"objects/Obj_DarkLight/Obj_DarkLight.yy",},"order":0,},
+    {"id":{"name":"Spr_Plug1Cable","path":"sprites/Spr_Plug1Cable/Spr_Plug1Cable.yy",},"order":0,},
     {"id":{"name":"Scr_Util","path":"scripts/Scr_Util/Scr_Util.yy",},"order":0,},
     {"id":{"name":"Spr_PCButtons","path":"sprites/Spr_PCButtons/Spr_PCButtons.yy",},"order":0,},
     {"id":{"name":"Spr_ScrollButton","path":"sprites/Spr_ScrollButton/Spr_ScrollButton.yy",},"order":0,},
@@ -55,6 +56,7 @@
     {"id":{"name":"Fnt_Small","path":"fonts/Fnt_Small/Fnt_Small.yy",},"order":0,},
     {"id":{"name":"Obj_Mouse","path":"objects/Obj_Mouse/Obj_Mouse.yy",},"order":0,},
     {"id":{"name":"Spr_PCUI","path":"sprites/Spr_PCUI/Spr_PCUI.yy",},"order":0,},
+    {"id":{"name":"Obj_SlidingPuzzle","path":"objects/Obj_SlidingPuzzle/Obj_SlidingPuzzle.yy",},"order":0,},
     {"id":{"name":"Spr_Paper1","path":"sprites/Spr_Paper1/Spr_Paper1.yy",},"order":0,},
     {"id":{"name":"Fnt_Tiny","path":"fonts/Fnt_Tiny/Fnt_Tiny.yy",},"order":0,},
     {"id":{"name":"Spr_DarkLight","path":"sprites/Spr_DarkLight/Spr_DarkLight.yy",},"order":0,},

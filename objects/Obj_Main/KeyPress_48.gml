@@ -1,0 +1,1 @@
+global.dev_mode = !global.dev_mode;

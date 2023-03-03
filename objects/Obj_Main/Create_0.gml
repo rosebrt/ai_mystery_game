@@ -11,3 +11,5 @@ global.desk = instance_create_depth(0,0,0,Obj_Desk);
 
 
 global.fric = 0.1;
+
+global.dev_mode = true;

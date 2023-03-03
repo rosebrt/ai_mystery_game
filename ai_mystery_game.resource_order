@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"Obj_DarkLight","order":4,"path":"objects/Obj_DarkLight/Obj_DarkLight.yy",},
+    {"name":"Spr_Plug1Cable","order":11,"path":"sprites/Spr_Plug1Cable/Spr_Plug1Cable.yy",},
     {"name":"Scr_Util","order":1,"path":"scripts/Scr_Util/Scr_Util.yy",},
     {"name":"Spr_PCButtons","order":1,"path":"sprites/Spr_PCButtons/Spr_PCButtons.yy",},
     {"name":"Spr_ScrollButton","order":3,"path":"sprites/Spr_ScrollButton/Spr_ScrollButton.yy",},
@@ -34,6 +35,7 @@
     {"name":"Fnt_Small","order":1,"path":"fonts/Fnt_Small/Fnt_Small.yy",},
     {"name":"Obj_Mouse","order":3,"path":"objects/Obj_Mouse/Obj_Mouse.yy",},
     {"name":"Spr_PCUI","order":4,"path":"sprites/Spr_PCUI/Spr_PCUI.yy",},
+    {"name":"Obj_SlidingPuzzle","order":7,"path":"objects/Obj_SlidingPuzzle/Obj_SlidingPuzzle.yy",},
     {"name":"Spr_Paper1","order":1,"path":"sprites/Spr_Paper1/Spr_Paper1.yy",},
     {"name":"Fnt_Tiny","order":2,"path":"fonts/Fnt_Tiny/Fnt_Tiny.yy",},
     {"name":"Spr_DarkLight","order":9,"path":"sprites/Spr_DarkLight/Spr_DarkLight.yy",},
