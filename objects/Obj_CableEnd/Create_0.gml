@@ -2,7 +2,7 @@ event_inherited();
 
 tip = {
 	x: x,
-	y: y,
+	y: y-1,
 	x_vel: 0,
 	y_vel: 0,
 }

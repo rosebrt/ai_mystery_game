@@ -1,22 +1,12 @@
-//if holding item, drag it
-if(mouse_check_button(mb_left)){
+x = mouse_x;
+y = mouse_y;
+
+if(mouse_check_button(mb_left)) {
 	if(held_item != noone) {
-		held_item.x = mouse_x - off_x;
-		held_item.y = mouse_y - off_y;
 		
-		//if held item has connections, drag them
-		for (var i = 0; i < ds_list_size(held_item.in_snaps); ++i) {
-			var s = held_item.in_snaps[| i];
-		    s.x = held_item.x + s.x_rel;
-		    s.y = held_item.y + s.y_rel;
-	
-			//update any items whose nodes are snapped into my input snaps
-			if(s.connection != noone) {
-				var connected_item = s.connection.parent_item;
-				connected_item.x = held_item.x + s.x_rel - s.connection.x_rel;
-				connected_item.y = held_item.y + s.y_rel - s.connection.y_rel;
-			}
-		}
+		update_target_angle();
+		
+		drag_held_item();
 	}
 } else {
 	if(held_item != noone) {
@@ -50,3 +40,6 @@ for (var ii = 0; ii < num_items; ++ii) {
 		break;
 	}
 }
+
+prev_x = x;
+prev_y = y;

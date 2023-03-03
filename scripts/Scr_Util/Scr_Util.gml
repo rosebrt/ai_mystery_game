@@ -171,18 +171,22 @@ function draw_curve_ext(points_list, list_start=0, list_end, tension, _resolutio
 	}
 }
 	
-function draw_curve_sprite(points_list, list_start=0, list_end, tension, _resolution=15, _sprite, _frame=0, _color=c_white, _alpha=1) {
+function draw_curve_sprite(points_list, _x_offset=0, _y_offset=0, tension, _resolution=15, _sprite, _frame=0, _color=c_white, _alpha=1) {
 	
 	var ps = [];
 	var points_len = array_length(points_list);
+	var list_end = points_len;
+	var padding = 0.5;
+	if(_alpha != 1)
+		padding = 0;
 	
 	var _sprite_width = sprite_get_width(_sprite);
 	
 	if points_len < 2 return;
 	
 
-	for(var i = list_start; i < list_end + 1; i++) {
-		if i == list_start ps[array_length(ps)] = points_list[i];
+	for(var i = 0; i < list_end + 1; i++) {
+		if i == 0 ps[array_length(ps)] = points_list[i];
 		if i < list_end ps[array_length(ps)] = points_list[i];
 		else ps[array_length(ps)] = points_list[list_end-1];
 	}
@@ -219,9 +223,9 @@ function draw_curve_sprite(points_list, list_start=0, list_end, tension, _resolu
 	        var py = ay * t * t * t + by * t * t + cy * t + dy;
 			
 			var angle = point_direction(prevx,prevy,px,py);
-			var length = point_distance(prevx,prevy,px,py) +0.5;
+			var length = point_distance(prevx,prevy,px,py)+padding;
 			
-			draw_sprite_ext(_sprite,_frame,px,py,length/_sprite_width,1,angle,_color,_alpha);
+			draw_sprite_ext(_sprite,_frame,px+_x_offset,py+_y_offset,length/_sprite_width,1,angle,_color,_alpha);
 			
 			prevx = px;
 			prevy = py;

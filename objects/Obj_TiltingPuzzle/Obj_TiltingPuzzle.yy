@@ -1,8 +1,12 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_SlidingPuzzle",
-  "eventList": [],
+  "name": "Obj_TiltingPuzzle",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -29,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_Photo",
-    "path": "sprites/Spr_Photo/Spr_Photo.yy",
+    "name": "Spr_TiltPuzzle",
+    "path": "sprites/Spr_TiltPuzzle/Spr_TiltPuzzle.yy",
   },
   "spriteMaskId": null,
   "visible": true,

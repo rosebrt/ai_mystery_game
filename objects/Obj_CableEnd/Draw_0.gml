@@ -1,7 +1,9 @@
 event_inherited();
 
+draw_curve_sprite(cable,4,6,0,10,Spr_Plug1Cable,0,c_black,shadow);
 
-draw_curve_sprite(cable,0,array_length(cable),0,10,Spr_Plug1Cable,0);
+draw_curve_sprite(cable,,,0,10,Spr_Plug1Cable,0);
+
 
 if(global.dev_mode) {
 	draw_set_color(c_yellow);

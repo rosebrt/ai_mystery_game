@@ -4,7 +4,7 @@ var first_node = cable[0];
 var last_node = cable[cable_points-1];
 
 first_node.x = x;
-first_node.y = y;
+first_node.y = y-1;
 
 // last and first node are fixed
 for (var i = 1; i < cable_points-1; ++i) {

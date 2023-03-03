@@ -1,4 +1,4 @@
-var shadow = 0.4
+shadow = 0.4
 if( is_held() )
 	shadow = 0.6;
 

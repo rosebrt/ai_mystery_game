@@ -1,5 +1,11 @@
 #macro SCREENGREEN #7EB581
 
+enum drag_modes {
+	directional,
+	leaning,
+	still,
+}
+
 function ds_list_swap(_list,_index1,_index2) {
 	var temp = _list[| _index1];
 	_list[| _index1] = _list[| _index2];

@@ -4,6 +4,8 @@ ysp = random_range(-3,3);
 asp = random_range(-3,3);
 target_angle = 0;
 
+drag_mode = drag_modes.leaning;
+
 //button stuff
 buttons = ds_list_create();
 
